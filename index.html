@@ -9,56 +9,116 @@
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
+
+    <!-- BACKGROUND -->
+    <div class="backgroud">
+        <img src="/img/background.jpg" alt="Watch Dogs Legion Backgroud" class="background-img">
+    </div>
+
     <!-- MENU -->
     <div class="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="/img/logo.png" alt="Gameflix Logo" class="logo-full">
+                <img src="/img/fav.png" alt="Gameflix Logo" class="logo-small">
+            </div>
+            
+            <div class="menu-wrapper">
+                <nav class="menu-nav">
+                    <ul class="home">
+                        <li class="home"><a href="#" class="active-menu home">Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Gameplays</a></li>
+                    </ul>
+                    <ul class="latest">
+                        <li><a href="#">Latest</a></li>
+                    </ul>
+                    <ul class="my-list">
+                        <li><a href="#">My List</a></li>
+                    </ul>
+                </nav>
         
-        <div class="logo">
-            <img src="/img/logo.png" alt="Gameflix Logo">
+                <nav class="search-nav">
+                    <ul>
+                        <li class="search-box">
+                            <button class="btn-search">
+                                <img src="/img/search-icon.svg" alt="Magnifying Glass Icon">
+                            </button>
+                            <input type="text" class="search-box-input" placeholder="Title, publisher, gender ">
+                        </li>
+                    </ul>
+                    <ul class="bell">
+                        <li class="bell">
+                            <button class="btn-bell bell">
+                                <img src="/img/bell.svg" alt="Bell Logo">
+                            </button>
+                        </li>
+                    </ul>
+                    <ul class="user">
+                        <li class="user">
+                            <button class="btn-user user">
+                                <img src="/img/user.svg" alt="User Logo" class="user-logo">
+                                <img src="/img/arrow-down.svg" alt="Arrow Logo" class="arrow-logo">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
         </div>
         
-        <div class="menu-wrapper">
-            <nav class="menu-nav">
-                <ul>
-                    <li><a href="#" class="active-menu">Home</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Reviews</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Gameplays</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Latest</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">My List</a></li>
-                </ul>
-            </nav>
-    
-            <nav class="search-nav">
-                <ul>
-                    <li class="search-box">
-                        <button class="btn-search">
-                            <img src="/img/search-icon.svg" alt="Magnifying Glass Icon">
-                        </button>
-                        <input type="text" class="search-box-input" placeholder="Title, publisher, gender ">
-                    </li>
-                </ul>
+        <!-- FIXED MENU (TABLET AND MOBILE) -->
+        <div class="menu-fixed">
+            <nav class="fixed-nav">
                 <ul>
                     <li>
-                        <button class="btn-bell">
-                            <img src="/img/bell.svg" alt="Bell Logo">
+                        <button>
+                            <img src="/img/home.svg" alt="Home Logo">
+                            <span>Home</span>
                         </button>
                     </li>
                 </ul>
+
+                <ul class="search-fixed">
+                    <li>
+                        <button>
+                            <img src="/img/search-icon.svg" alt="Search Icon">
+                            <span>Search</span>
+                        </button>
+                    </li>
+                </ul>
+
+                <ul class="soon-fixed">
+                    <li>
+                        <button>
+                            <img src="/img/soon.svg" alt="Cooming Soon Icon">
+                            <span>Cooming Soon</span>
+                        </button>
+                    </li>
+                </ul>
+
                 <ul>
                     <li>
-                        <button class="btn-user">
-                            <img src="/img/user.svg" alt="User Logo" class="user-logo">
-                            <img src="/img/arrow-down.svg" alt="Arrow Logo" class="arrow-logo">
+                        <button>
+                            <img src="/img/download.svg" alt="Download Logo">
+                            <span>Downloads</span>
                         </button>
                     </li>
                 </ul>
+
+                <ul>
+                    <li>
+                        <button>
+                            <img src="/img/menu.svg" alt="Menu Logo">
+                            <span>More</span>
+                        </button>
+                    </li>
+                </ul>
+
             </nav>
         </div>
 
@@ -66,10 +126,6 @@
 
     <!-- INTRO -->
     <div class="intro-wrapper">
-        <div class="backgroud">
-            <img src="/img/background.jpg" alt="Watch Dogs Legion Backgroud" class="background-img">
-        </div>
-
         <div class="info">
             <div class="info-01">
                 <img src="/img/fav.png" alt="Gameflix Logo">
@@ -88,7 +144,7 @@
             <div class="info-btn">
                 <button><img src="/img/play.svg" alt="Play Button">Play</button>
                 <button class="my-list-btn"><img src="/img/add.svg" alt="My List Button">My List</button>
-                <button><img src="/img/information.svg" alt="Info Button">More Info</button>
+                <button id="btn-more-info"><img src="/img/information.svg" alt="Info Button">More Info</button>
             </div>
         </div>
     </div>
