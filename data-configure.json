@@ -1,0 +1,58 @@
+{
+   "categories": 
+   {
+       "popular": [
+            {"src": "./img/data/popular/among-us.jpg"},
+            {"src": "./img/data/popular/cod-warzone.jpg"},
+            {"src": "./img/data/popular/fall-guys.jpg"},
+            {"src": "./img/data/popular/fortnite.jpg"},
+            {"src": "./img/data/popular/fifa-21.jpg"},
+            {"src": "./img/data/popular/lol.jpg"},
+            {"src": "./img/data/popular/minecraft.jpg"},
+            {"src": "./img/data/popular/rocket-league.jpg"},
+            {"src": "./img/data/popular/phasmophobia.jpg"},
+            {"src": "./img/data/popular/rss.jpg"},
+            {"src": "./img/data/popular/valorant.jpg"},
+            {"src": "./img/data/popular/wow.jpg"}
+       ],
+       "popularMobile": [
+          {"src": "./img/data/popular/mobile/among-us.jpg"},
+          {"src": "./img/data/popular/mobile/cod-warzone.jpg"},
+          {"src": "./img/data/popular/mobile/fall-guys.jpg"},
+          {"src": "./img/data/popular/mobile/fortnite.jpg"},
+          {"src": "./img/data/popular/mobile/fifa-21.jpg"},
+          {"src": "./img/data/popular/mobile/lol.jpg"},
+          {"src": "./img/data/popular/mobile/minecraft.jpg"},
+          {"src": "./img/data/popular/mobile/rocket-league.jpg"},
+          {"src": "./img/data/popular/mobile/phasmophobia.jpg"},
+          {"src": "./img/data/popular/mobile/rss.jpg"},
+          {"src": "./img/data/popular/mobile/valorant.jpg"},
+          {"src": "./img/data/popular/mobile/wow.jpg"}
+       ],
+
+       "trending": [
+            {"src": "./img/data/trending/watch-dogs-legion.jpg"},
+            {"src": "./img/data/trending/cod-cold-war.jpg"},
+            {"src": "./img/data/trending/star-wars-squadrons.jpg"},
+            {"src": "./img/data/trending/assassins-creed-valhalla.jpg"},
+            {"src": "./img/data/trending/dirt-5.jpg"},
+            {"src": "./img/data/trending/godfall.jpg"},
+            {"src": "./img/data/trending/cyberpunk-2077.jpg"},
+            {"src": "./img/data/trending/nba-2k21.jpg"},
+            {"src": "./img/data/trending/spider-man-miles-morales.jpg"},
+            {"src": "./img/data/trending/far-cry-6.jpg"}
+       ],
+       "trendingMobile": [
+            {"src": "./img/data/trending/mobile/watch-dogs-legion.jpg"},
+            {"src": "./img/data/trending/mobile/cod-cold-war.jpg"},
+            {"src": "./img/data/trending/mobile/star-wars-squadrons.jpg"},
+            {"src": "./img/data/trending/mobile/assassins-creed-valhalla.jpg"},
+            {"src": "./img/data/trending/mobile/dirt-5.jpg"},
+            {"src": "./img/data/trending/mobile/godfall.jpg"},
+            {"src": "./img/data/trending/mobile/cyberpunk-2077.jpg"},
+            {"src": "./img/data/trending/mobile/nba-2k21.jpg"},
+            {"src": "./img/data/trending/mobile/spider-man-miles-morales.jpg"},
+            {"src": "./img/data/trending/mobile/far-cry-6.jpg"}
+       ]
+   } 
+}

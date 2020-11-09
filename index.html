@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gameflix</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="/img/fav.png">
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
 
     <!-- BACKGROUND -->
     <div class="backgroud">
-        <img src="/img/background.jpg" alt="Watch Dogs Legion Backgroud" class="background-img">
+        <img src="/img/background-full.jpg" alt="Watch Dogs Legion Backgroud" class="background-img">
     </div>
 
     <!-- MENU -->
@@ -125,30 +127,65 @@
     </div>
 
     <!-- INTRO -->
-    <div class="intro-wrapper">
-        <div class="info">
-            <div class="info-01">
-                <img src="/img/fav.png" alt="Gameflix Logo">
-                <h3>games</h3>
-            </div>
-            
-            <div class="info-logo">
-                <img src="/img/watch-dogs-legion.png" alt="Whatch Dogs: Legion Logo">
-            </div>
-
-            <div class="info-about">
-                <h2>Watch Now</h2>
-                <p>Watch Dogs: Legion is an action-adventure game played from a third-person perspective, and takes place within an open world setting based upon London.</p>
-            </div>
-
-            <div class="info-btn">
-                <button><img src="/img/play.svg" alt="Play Button">Play</button>
-                <button class="my-list-btn"><img src="/img/add.svg" alt="My List Button">My List</button>
-                <button id="btn-more-info"><img src="/img/information.svg" alt="Info Button">More Info</button>
+    <div class="intro-container">
+        <div class="intro-wrapper">
+            <div class="info">
+                <div class="info-01">
+                    <img src="/img/fav.png" alt="Gameflix Logo">
+                    <h3>games</h3>
+                </div>
+                
+                <div class="info-logo">
+                    <img src="/img/watch-dogs-legion.png" alt="Whatch Dogs: Legion Logo">
+                </div>
+    
+                <div class="info-about">
+                    <h2>Watch Now</h2>
+                    <p>Watch Dogs: Legion is an action-adventure game played from a third-person perspective, and takes place within an open world setting based upon London.</p>
+                </div>
+    
+                <div class="info-btn">
+                    <button><img src="/img/play.svg" alt="Play Button">Play</button>
+                    <button class="my-list-btn"><img src="/img/add.svg" alt="My List Button">My List</button>
+                    <button id="btn-more-info"><img src="/img/information.svg" alt="Info Button">More Info</button>
+                </div>
             </div>
         </div>
     </div>
+    
 
+    <!-- CONTENT -->
+    <!-- Popular on Gameflix -->
+    <div class="data-title">
+        <h1>Popular on Gameflix</h1>
+    </div>
+    <div class="videos-container">
+        <div class="arrow" id="pLeft">
+            <button><img src="/img/prev.svg" alt="Previous Arrow"></button>
+        </div>
+        <div class="popular-slides"></div>
+        <div class="arrow" id="pRight">
+            <button><img src="/img/next.svg" alt="Next Arrow"></button>
+        </div>
+    </div>
+
+    <div class="data-title">
+        <h1>Trending Now</h1>
+    </div>
+    <div class="videos-container">
+        <div class="arrow" id="tLeft">
+            <button><img src="/img/prev.svg" alt="Previous Arrow"></button>
+        </div>
+        <div class="trending-slides"></div>
+        <div class="arrow" id="tRight">
+            <button><img src="/img/next.svg" alt="Next Arrow"></button>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
 </html>
